@@ -1,98 +1,53 @@
 <!DOCTYPE html>
-<html class="bcolor2">
-<!--HEAD-->
-<head><meta charset="utf-8">
-	<!--Refering to style sheet (stylehtml.css)-->
-	<!--<link href="styleforhtml.css"/> this doesn't work on github-->
-	<style>
-		
-h1{text-align: center;}
-
-.hello{color: midnightblue;}/*Header colors*/
-
-.ello{color: royalblue;}
-
-.llo{color: slateblue;}
-
-.lo{color: deepskyblue;}
-
-.bcolor1{background-color: gray;}
-
-.bcolor2{background-color: lightpink;}
-
-.bcolor3{background-color: #FAEBD7;}
-
-.sblue{color: purple;}/*Welcome line*/
-
-.o{color: powderblue;}
-
-.lpurple{color: plum;}/*Colors*/
-
-.salmon{color: salmon;}
-
-.lpink{color: lightpink;}
-
-.lightcoral{color: lightcoral;}
-
-.vred{color: palevioletred;}
-
-.red{color: red;}
-
-.pink{color: pink;}
-
-a{color: plum;
-
-text-decoration: none;/*Text-decoration: none; get rid of the underlines*/
-
-}
-
-a:hover{color: purple;}/*When mouse move to link turn purple*/
-
-.p1{text-indent: 2em;/*About me paragraph*/
-
-text-align: center;}
-		</style>
-	<title>a page</title>
-	<!--h1 used text-align to shift position refer to style.css-->
-	<h1><span class="hello">H</span><span class="ello">e</span><span class="llo">l</span><span class="lo">l</span><span class="o">o</span>!<span class="llo">你</span><span class="ello">好</span>! <span class="hello">^_^</span><h1>
-	<h3 align="center"><div class="sblue">Welcome and thank you for visiting my page!</div></h3>
-	<hr/>
-	
+<html>
+<head>
+	<title>Resume</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{font-family: Courier New;
+		color: black;}
+	body{background-image:url(image/homepgbg.jpg); /*Image cover the entire background/body*/
+	     background-attachment: sroll;
+         background-size: cover;}
+    .pageheader{font-size: 40px}
+    a{text-decoration: none; //Get rid of the underline
+    	text-align: center;}
+    a:hover{color:darkslategray;
+    		cursor: pointer;}
+	</style>
+	<h1 align="center" class="pageheader"></h1> 
 </head>
-<!--BODY.lpurple{color: plum;}/*Colors*/
-.salmon{color: salmon;}
-.lpink{color: lightpink;}
-.lightcoral{color: lightcoral;}
-.vred{color: palevioletred;}-->
 <body>
-	<!--This is my table of contents-->
-<table border="0" cellspacing="0" cellpadding="0" align="center" width="200" height="200">
-	<!--This is name of the table-->
-	<caption align="center"><h3><span class="salmon">H</span><span class="red">O</span><span class="salmon">M</span><span class="lpurple">E</span><span class="red">P</span><span class="salmon">A</span><span class="red">G</span><span class="lpurple">E</span></h3></caption>
-    <!--sections to choose-->
-	<tr><th><a href="#intro">About me</a></th><td></td></td></td></tr>
-	<tr><th><a href="#project">School projects</a><th><td></td></td></td></tr>
-	<tr><th><a href="mailto:loktung.wong@jjay.cuny.edu">Contact me</a><th><td></td></td></td></tr>
-	<!--<th><a href="contact.html" target="_self">Contact me</a>    I was gonna do a contact me page lol
-		Once I figure out how to store data will definitely do a contact me page instead-->	
-</table>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<!--About me section introduce myself-->
-<h3 id="intro" align="center" class="vred">About me</h3>
-<p class="p1 vred">...</p>
-<br/>
-<!--Projects section leave the project that I have done here-->
-<h3 id="project" align="center" class="vred">School projects</h3>
-<p class="p1 bold"><a href="proxy.html">Proxy Server</a></p>
-<p class="p1 bold"><a href="studentmenu.html">C++ Menu System</a></p>
-
-
+	<table border="0" cellspacing="0" cellpadding="40" align="center"><!--width="200" height="200"-->
+		<caption class="pageheader">HOME...</caption>
+		<tr align="center">
+			<td><a href="#leetcodepg.html">Leetcode Practices</a></td>
+			<td><a href="schoolpg.html">School Projects</a></td>
+			<td><a href="#">Side Projects</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Pictures Gallery</a></td>
+			<td><a href="mailto:loktung.wong@jjay.cuny.edu">Contact Me</a>
+			<td><a href="#intro">About Me</a>
+		</tr>
+	</table></h3>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<h2 align="center" id="intro">About me</h2>
+	<p></p>
 </body>
 </html>
-
-<!---->
